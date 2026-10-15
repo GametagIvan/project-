@@ -76,6 +76,56 @@
         tbody tr:nth-child(even) {
             background-color: #f4f1fc;
         }
+
+        .literature-block {
+            background: linear-gradient(135deg, #ffffff, #f0eaff);
+            border: 1px solid #d5c7f5;
+            border-left: 5px solid #4b2ca3;
+            border-radius: 14px;
+            padding: 25px;
+            margin: 30px 0 10px;
+            box-shadow: 0 4px 14px #4b2ca315;
+        }
+
+        .literature-block h2 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .literature-block .literature-description {
+            color: #625779;
+            margin-top: 0;
+            margin-bottom: 18px;
+        }
+
+        .literature-block ol {
+            padding-left: 24px;
+            margin-bottom: 18px;
+        }
+
+        .literature-block li {
+            margin-bottom: 12px;
+        }
+
+        .literature-block a {
+            color: #4b2ca3;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .literature-block a:hover {
+            text-decoration: underline;
+            color: #7654d6;
+        }
+
+        .literature-block .literature-note {
+            background: #eee7ff;
+            border-radius: 8px;
+            padding: 12px 15px;
+            color: #51436f;
+            margin-top: 18px;
+        }
+
     </style>
 </head>
 
@@ -190,7 +240,7 @@
             <li>Разработанный сайт для ввода и обработки результатов эксперимента, 
                 расчёта медианных значений задержки и построения графиков 
                 для сравнения полученных данных.
-               <a href="https://mediana.onrender.com/"
+               <a href="https://mediana-1.onrender.com"
                     target="_blank"
                     rel="noopener noreferrer">
                     Открыть сайт измерений
@@ -319,7 +369,51 @@
         </p>
     </section>
 
+
+    <section id="literature" class="literature-block">
+        <h2>11. Список литературы и источников</h2>
+        <p class="literature-description">
+            Материалы для изучения беспроводной связи, задержки ввода
+            и используемой в исследовании игры.
+        </p>
+
+        <ol>
+            <li>
+                <a href="https://www.wi-fi.org/" target="_blank" rel="noopener noreferrer">
+                    Wi-Fi Alliance — сведения о технологии Wi-Fi
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bluetooth.com/learn-about-bluetooth/" target="_blank" rel="noopener noreferrer">
+                    Bluetooth SIG — материалы о технологии Bluetooth
+                </a>
+            </li>
+            <li>
+                <a href="https://www.nvidia.com/en-us/geforce/technologies/reflex/" target="_blank" rel="noopener noreferrer">
+                    NVIDIA Reflex — материалы о снижении системной задержки
+                </a>
+            </li>
+            <li>
+                <a href="https://learn.microsoft.com/en-us/windows/" target="_blank" rel="noopener noreferrer">
+                    Microsoft Learn — техническая документация по Windows
+                </a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/730/CounterStrike2/" target="_blank" rel="noopener noreferrer">
+                    Steam — официальная страница Counter-Strike 2
+                </a>
+            </li>
+        </ol>
+
+        <div class="literature-note">
+            Дополнительно в проекте используются собственные экспериментальные
+            измерения и сравнение полученных результатов.
+        </div>
+    </section>
+
 </main>
 
+</body>
+</html>
 </body>
 </html>
